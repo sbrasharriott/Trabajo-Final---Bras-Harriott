@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastián Bras Harriott</title>
+    <script defer src="js/app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header class="header-index">
+
+        <nav class="nav-header">
+            <a href="#" class="logo-header">
+                <img class="logo-sbh" src="imgs/LogoSBH.png" alt="Logo">
+            </a>
+            <button class="open-menu" aria-label="Abrir Menú">
+                <img class="logo-menu" src="./imgs/menu-icon.svg" alt="">
+            </button>
+        
+                <ul class="menu-header">
+                    <button class="close-menu" aria-label="Cerrar Menú">
+                        <img class="logo-close" src="./imgs/close-icon.svg" alt="">
+                    </button>
+                    <li><a href="#profile" class="selected">Perfil</a></li>
+                    <li><a href="#experience">Estudios</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+        </nav>
+    </header>
+    <div class="padding-horizontal padding-vertical">
+        <section class="profile" id="profile">
+            <div class="profile-info"> 
+                <h1 class="profile-title">Hola, soy <br /> Sebastián Bras Harriott</h1>
+                <p class="profile-details">Soy un estudiante de Desarrollo Web en CoderHouse. En los próximos meses voy a estar aprendiendo JavaScript y Vue js. Mi meta es adentrarme dentro del mundo de la programación para crear mis propios videojuegos en un futuro. Mientras tanto busco trabjar como freelance para empresas o privados extranjeros. </p>
+                <button class="profile-btn">
+                    Descargar CV
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="./imgs/foto perfil.webp" alt="Foto de la persona">
+                <div class="profile-img-line"></div>
+            </span>
+        </section>
+    </div>
+    <section class="experiences" id="experience">
+        <img class="wave" src="./imgs/wave.svg" alt="división-arriba">
+            <div class="experiences-body">
+                <h2 class="experiences-title">Estudios</h2>
+                <div class="experiences-grid">
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="experience">
+                        <div class="experience-date">Enero 2022 - Septiembre 2022</div>
+                                <div class="experience-company">International House, Dublin, Irlanda</div>
+                                     <div class="experience-position">C1 Advanced</div>
+                                        <div class="experience-description">C1 Advanced pone a prueba de manera exhaustiva todas las competencias lingüísticas. El examen actualizado consta de cuatro pruebas desarrolladas para evaluar tus destrezas lingüísticas en inglés: Comprensión de lectura y uso de la lengua. Expresión escrita. Comprensión auditiva. Expresión oral.</div>
+                    </div>
+                    <div class="experience">
+                        <div class="experience-date">Agosto 2019 - Enero 2020</div>
+                                <div class="experience-company">Digital House</div>
+                                     <div class="experience-position">Marketing Digital</div>
+                                        <div class="experience-description">Trabajé de forma grupal en un proyecto dado por las escuela. Corrimos la campaña de MRKT Digital utilizando: GoogleAds, SocialAds, Google Analytics, entre otras.</div>
+                    </div>
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="empty"></div>
+                    <div class="experience">
+                        <div class="experience-date">2016 - 2021</div>
+                                <div class="experience-company">Universidad de Ciencias Sociales y Empresariales (UCES)</div>
+                                     <div class="experience-position">Licenciatura en Administración de Empresas</div>
+                                        <div class="experience-description">La Licenciatura en Administración de Empresas en UCES cuenta con criterios pedagógicos avanzados, para la formación de profesionales en las competencias requeridas, con el fin de dar respuesta a las realidades cambiantes del sistema eco-social de este nuevo siglo. El diseño de la Carrera parte del concepto de administración estratégica y se encuentra fuertemente orientado hacia el management, recogiendo en sus contenidos las más modernas técnicas y enfoques utilizados por las organizaciones líderes de la economía global.</div>
+                    </div>
+                </div>
+            </div>
+        <img class="wave wave-bottom" src="./imgs/wave abajo.svg" alt="división-abajo">
+    </section>
+    <div class="padding-horizontal padding-vertical">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">Excel</li>
+                <li class="skills-skill">Word</li>
+                <li class="skills-skill">PowerPoint</li>
+                <li class="skills-skill">GoogleAds</li>
+                <li class="skills-skill">Google Analytics</li>
+                <li class="skills-skill">Facebook/Instagram Ads</li>
+                <li class="skills-skill">Html</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">Inglés Fluido</li>
+                <li class="skills-skill">Alemán Básico</li>
+            </ul>
+        </section>
+    </div>
+    <div class="padding-horizontal padding-vertical">
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Dirección:</p>
+                    <p class="contact-text">Argentina, Buenos Aires</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-label">Email:</p>
+                    <p class="contact-text">sebastianbras6@gmail.com</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text">Deje un mensaje y con gusto le responderé</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li>
+                        <a href="">
+                            <img src="./social/twitter.svg" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./social/youtube.svg" alt="YouTube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./social/github.svg" alt="GitHub">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./social/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+</body>
+</html>
